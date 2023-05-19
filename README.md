@@ -18,16 +18,12 @@ Animation of a page when you open it or refresh the page t create an interactive
 
 
 # Sources
-
+    Coffee and cake image has been taken from the pexels.com website.
+    The burger menu SVG for this project has been taken from svgrepo.com
 
   GSAP Library scripts used:
-
   - TweenMax.min.js
   - TimelineMax.min.js
-<!--    - TweenLite.min.js
-   - TimelineLite.min.js
-   - CSSPlugin.min.js is also required in combination to the TweenLite
-   - For me to have this animation animate in a certain path I will also require the BezierPlugin.min.js -->
 
 
 
