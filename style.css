@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slider{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to left, #ba7453, #d1a984);
+    z-index: -1;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 10% 1fr 1fr 10%;
+    min-height: 10vh;
+    color: white;
+    align-items: center;
+}
+
+/* The below is how I move the logo in the nav bar to the section I require as we have changed display of the Navbar into Grid display above.  This will auot move the burger menu as well as it comes after the logo in html code*/
+#logo{
+    grid-column: 2/3;
+    font-size: 24px;
+}
+
+/* The below I push the hamburger menu the end of the grid section it is located in*/
+.hamburger{
+    justify-self: end;
+}
