@@ -21,6 +21,9 @@ Animation of a page when you open it or refresh the page t create an interactive
 
 
   GSAP Library scripts used:
+
+  - TweenMax.min.js
+  - TimelineMax.min.js
 <!--    - TweenLite.min.js
    - TimelineLite.min.js
    - CSSPlugin.min.js is also required in combination to the TweenLite
