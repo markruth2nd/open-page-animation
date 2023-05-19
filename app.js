@@ -9,4 +9,6 @@ const headline = document.querySelector('.headline');
 const tl = new TimelineMax();
 
 /* Now I am going to define the elements that I want to animate, add the duration of the animation and then in the first {object} I am going to define the start state of the animation and then in the second {object} I will define the ending state of the animation, so {from},{To}*/
-tl.fromTo(hero,1.4, {height: "0%"}, {height: "80%", ease: Power2.easeInOut}) /* addint the ease to the {To} part of the fromTo timeline ensures a smoother transition of the hero animation */
+tl.fromTo(hero,1.4, {height: "0%"}, {height: "80%", ease: Power2.easeInOut}) /* adding the ease to the {To} part of the fromTo timeline ensures a smoother transition of the hero animation */
+.fromTo(hero,1.2, {width: "100%"}, {width: "90%", ease: Power2.easeInOut})
+.fromTo(slider, 1.2, {x: "-100%"}, {x: "0%", ease: Power2.easeInOut}, "-=1.2") /* "-=1.2" is allowing the slider part of the animation to start at the same time as the width section animation */
