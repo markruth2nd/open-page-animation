@@ -12,3 +12,6 @@ const tl = new TimelineMax();
 tl.fromTo(hero,1.4, {height: "0%"}, {height: "80%", ease: Power2.easeInOut}) /* adding the ease to the {To} part of the fromTo timeline ensures a smoother transition of the hero animation */
 .fromTo(hero,1.2, {width: "100%"}, {width: "90%", ease: Power2.easeInOut})
 .fromTo(slider, 1.2, {x: "-100%"}, {x: "0%", ease: Power2.easeInOut}, "-=1.2") /* "-=1.2" is allowing the slider part of the animation to start at the same time as the width section animation */
+.fromTo(logo, 0.5, {opacity: 0, x:30}, {opacity: 1, x:0}, "-=0.8")
+.fromTo(hamburger, 0.5, {opacity: 0, x:30}, {opacity: 1, x:0}, "-=0.8")
+.fromTo(headline, 0.5, {opacity: 0, x:30}, {opacity: 1, x:0}, "-=1")
