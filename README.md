@@ -6,6 +6,7 @@ Animation of a page when you open it or refresh the page to create an interactiv
 
 
 # Depoloyed Link
+https://markruth2nd.github.io/open-page-animation/
 
 INSTRUCTUONS OF USE: The see the animation in action, all you need to do is click the above link and if you looked away before seeing the ✨magic✨ happen, just refresh the page.
 
@@ -18,10 +19,11 @@ The purpose of this project is to keep finding ways in which I can make web page
 Using the GSAP library, specifically the TweenMax & TimelineMax features I have created an interactive feeling to the page as the user first opens the page which hopefully helps the user feel more welcome and get a true feeling of the purpose of the webpage.
 
 # Sources
-    Coffee and cake image has been taken from the pexels.com website.
-    The burger menu SVG for this project has been taken from svgrepo.com
+Coffee image has been taken from the pexels.com website.
 
-  GSAP Library scripts used:
+The burger menu SVG for this project has been taken from svgrepo.com
+
+GSAP Library scripts used:
   - TweenMax.min.js
   - TimelineMax.min.js
 
